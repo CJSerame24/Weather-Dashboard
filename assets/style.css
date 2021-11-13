@@ -1,0 +1,104 @@
+body {
+    background-color: gainsboro;
+    font-family: 'Rokkitt', serif;
+    margin: 0;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    padding-right: 20px;  
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+a {
+    color: black !important;
+    font-size: 24px;
+}
+
+.currentWeather {
+    border: whitesmoke solid 2px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(33, 52, 80, 0.87);
+    text-shadow: black 4px 4px 3px;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+.fiveDay {
+    margin-top: 20px;
+}
+
+.dayCard {
+    color: white;
+    width: 100%;
+    background-color: rgba(33, 52, 80, 0.87);
+    border: whitesmoke solid 2px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    
+    font-size: 20px;
+}
+
+.fiveDayIcon{
+    display: block;
+}
+
+
+div.dropdown-menu.show {
+    padding: 10px;
+    background-color: transparent;
+}
+
+.cityBtn { 
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 30px;
+    border-radius: 1px;
+    border: solid gray 2px;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize; 
+}
+
+.cityBtn:hover{
+    opacity: .5;
+}
+
+.cityBtn:active {
+    transform: scale(.9);
+}
+
+.uvIndex {
+    border: transparent  5px;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+
+.city {
+text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+@media (min-width: 1300px) {
+    .dayCard {
+        float: left;
+        width: 222px;
+    }   
+}
